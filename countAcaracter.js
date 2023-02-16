@@ -1,4 +1,4 @@
-function countAcaracter(sentence){
+function countAcaracter(){
     let sentence = "Bonjour, chers candidat comment vous allez aujourd'hui";
     let count = 0;
 for(let i = 0; i < sentence.length; i++)
