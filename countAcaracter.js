@@ -1,7 +1,7 @@
 function countAcaracter(sentence){
     let sentence = "Bonjour, chers candidat comment vous allez aujourd'hui";
     let count = 0;
-for(var i = 0; i < sentence.length; i++)
+for(let i = 0; i < sentence.length; i++)
         {
             if(sentence[i] == "a")
                 count++;
